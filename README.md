@@ -54,7 +54,7 @@
      # print((type(uls[0])))
      # print(uls)
 #### 存储新的url
-     urls = [] 
+    urls = [] 
     titles = [] # 标题
     for child in uls:
         hrefs = child.find_all(name= 'a')
@@ -100,7 +100,6 @@
     for url in urls:
         html = getHtmlText(url)
         # print(html)
-        #解析
         soup = BeautifulSoup( html , "html.parser")
         time = soup.find(name='meta', attrs= {"name" : "PubDate"})
         # print(time['content'])
