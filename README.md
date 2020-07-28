@@ -18,7 +18,7 @@
 - [生态文明建设](http://theory.people.com.cn/GB/68294/417224/index.html)
 
 
-# 二、代码
+# 二、代码步骤分步详析
 ## 《习近平新时代中国特色社会主义思想三十讲》爬取代码
     
     import requests
@@ -35,8 +35,6 @@
     #统一编码
     r.encoding = r.apparent_encoding
     return r.text
-
-
 
     rooturl = "http://gzw.fujian.gov.cn/ztzl/xxxcgcddsjdjs/xxzl_12064/"
     html = getHtmlText(rooturl)
