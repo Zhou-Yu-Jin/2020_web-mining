@@ -1,4 +1,4 @@
-# 2020 Web Mining 期末项目
+# 2020 Web Mining & Pandas 期末项目
 |项目名称|中国特色联合国发展：联合国发展目标与习近平新时代中国特色社会主义思想之主题模型可视化|
 | ---------- | --- |
 |小组成员| 周昱瑾 卢佳燕 孙思盼|
@@ -326,3 +326,7 @@
 # 三、代码运行结果
 - [生态文明](https://github.com/Zhou-Yu-Jin/2020_web-mining/blob/master/web_mining/%E7%94%9F%E6%80%81%E6%96%87%E6%98%8E%E7%88%AC%E8%99%AB/getContents.ipynb)
 - [联合国17个发展目标、习近平新时代中国特色社会主义思想学习纲要（19个）、习近平新时代中国特色社会主义思想学习纲要](https://github.com/Zhou-Yu-Jin/2020_web-mining/blob/master/web_mining/get_content%E4%BB%A3%E7%A0%81%E9%9B%86.ipynb)
+
+# 四、数据分析
+## 4.1 数据清理、断词
+## 4.2 半监督修正
